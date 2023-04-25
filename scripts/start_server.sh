@@ -8,4 +8,4 @@ cd /home/ubuntu/StudentRegistration_on_Aws
 
 
 #start our node app in the background
-python3 EmpApp.py > app.out.log 2> app.err.log < /dev/null &
+sudo python3 EmpApp.py > app.out.log 2> app.err.log < /dev/null &
